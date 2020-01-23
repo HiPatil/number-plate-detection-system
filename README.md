@@ -18,13 +18,9 @@ Raspberry-Pi 3B+, Logitech Web Camera, IR Sensors, Connecting wires, Servo Motor
 5. Automated warning system
 
 
-# Flow Chart
-![Proposed Model](https://drive.google.com/open?id=10fJSsP-DzYK0am6I-9Z1keYsZz1iCDjx)
-
 # Working
 A servo consists of a Motor (DC or AC), a potentiometer, gear assembly and a controlling circuit. First of all we use gear assembly to reduce RPM and to increase torque of motor. Say at initial position of servo motor shaft, the position of the potentiometer knob is such that there is no electrical signal generated at the output port of the potentiometer. Now an electrical signal is given to another input terminal of the error detector amplifier. Now difference between these two signals, one comes from potentiometer and another comes from other source, will be processed in feedback mechanism and output will be provided in term of error signal. This error signal acts as the input for motor and motor starts rotating. Now motor shaft is connected with potentiometer and as motor rotates so the potentiometer and it will generate a signal. So as the potentiometer angular position changes, its output feedback signal changes. After sometime the position of potentiometer reaches at a position that the output of potentiometer is same as external signal provided. At this condition, there will be no output signal from the amplifier to the motor input as there is no difference between external applied signal and the signal generated at potentiometer, and in this situation motor stops rotating
 
-![Finding Region of Interest](https://drive.google.com/open?id=1doM1kZzikVxyKjCL3jm-1XZ1PKQeKGNP)
 
 # References
 1. M. Everingham, L. Van Gool, C. K. Williams, J. Winn, and A. Zisserman. The pascal visual object
@@ -40,5 +36,6 @@ image classification. Dataset available from https://github.com/openimages, 2017
 
 
 # Team Members
-1. Rishesh Agarwal
+1. Himanshu Patil
+2. Rishesh Agarwal
 2. Rohit Lal
